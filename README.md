@@ -10,29 +10,33 @@
    cd booker_api
 
 2. **Создай виртуальное окружение и активируй его:**
-```bash
-python -m venv .venv
-Активация для PowerShell / Windows:
-powershell
-.\.venv\Scripts\Activate
+   ```bash
+   python -m venv .venv
+   Активация для PowerShell / Windows:
+   powershell
+   .\.venv\Scripts\Activate
 
 3. **Установи зависимости:**
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 ## 🧪 Запуск тестов
 1. **По умолчанию тесты запускаются так:**
 
-```bash
-pytest
+   ```bash
+   pytest
+   
 Результаты сохраняются в allure-results/ (см. pytest.ini).
 
 **Для генерации и просмотра отчёта:**
 
-```bash
-allure serve allure-results
+   ```bash
+   allure serve allure-results
+
 **📝 Логирование**
-Логи пишутся в файл logs/api.log. 
+Логи пишутся в файл logs/api.log.
+
+
 ## 📂 Структура проекта
 
 ```text
