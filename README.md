@@ -1,9 +1,4 @@
 Booker API Automation Tests
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/Pytest-Testing%2520Framework-green
-https://img.shields.io/badge/Allure-Reports-orange
-https://img.shields.io/badge/API-Testing-lightgrey
-
 Проект автоматизированного тестирования REST API для Booker API. Включает позитивные и негативные тест-кейсы с генерацией подробных Allure отчетов.
 
 📋 Оглавление
