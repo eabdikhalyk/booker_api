@@ -21,7 +21,7 @@
 ├── pytest.ini                 — конфигурация pytest (по умолчанию собирает Allure-результаты)  
 ├── requirements.txt           — внешние зависимости (например, pytest, allure-pytest)  
 └── README.md                  — этот файл
-
+```text
 
 ##  Быстрый старт
 
