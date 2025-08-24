@@ -1,0 +1,5 @@
+[32mINFO    [0m APIClient:base_requests.py:55 GET https://restful-booker.herokuapp.com/booking/315
+[35mDEBUG   [0m APIClient:base_requests.py:56 Headers: None
+[35mDEBUG   [0m APIClient:base_requests.py:57 Params: None
+[32mINFO    [0m APIClient:base_requests.py:61 Response status: 200
+[35mDEBUG   [0m APIClient:base_requests.py:62 Response body: {"firstname":"Jacob","lastname":"Meyer","totalprice":109,"depositpaid":false,"bookingdates":{"checkin":"2024-11-09","checkout":"2025-07-14"},"additionalneeds":"Dinner"}

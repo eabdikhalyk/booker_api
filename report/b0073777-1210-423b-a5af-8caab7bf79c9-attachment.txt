@@ -1,0 +1,5 @@
+2025-08-24 21:11:38,529 - INFO - POST https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:38,529 - DEBUG - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'Cookie': 'token=9b36631c2a2e948', 'Authorization': 'Basic 9b36631c2a2e948'}
+2025-08-24 21:11:38,529 - DEBUG - Payload: {'firstname': 'Kyle', 'lastname': 'Day'}
+2025-08-24 21:11:39,746 - INFO - Response status: 200
+2025-08-24 21:11:39,746 - DEBUG - Response body: {"firstname":"Kyle","lastname":"Day","totalprice":570,"depositpaid":false,"bookingdates":{"checkin":"2022-07-24","checkout":"2026-01-19"},"additionalneeds":"Breakfast"}

@@ -1,0 +1,5 @@
+2025-08-24 21:11:48,377 - INFO - GET https://restful-booker.herokuapp.com/ping
+2025-08-24 21:11:48,377 - DEBUG - Headers: None
+2025-08-24 21:11:48,377 - DEBUG - Params: None
+2025-08-24 21:11:49,565 - INFO - Response status: 201
+2025-08-24 21:11:49,566 - DEBUG - Response body: Created

@@ -1,0 +1,70 @@
+2025-08-24 21:11:32,405 - INFO - GET https://restful-booker.herokuapp.com/booking
+2025-08-24 21:11:32,405 - DEBUG - Headers: None
+2025-08-24 21:11:32,405 - DEBUG - Params: None
+2025-08-24 21:11:33,643 - INFO - Response status: 200
+2025-08-24 21:11:33,643 - DEBUG - Response body: [{"bookingid":2},{"bookingid":304},{"bookingid":27},{"bookingid":115},{"bookingid":62},{"bookingid":121},{"bookingid":46},{"bookingid":112},{"bookingid":6},{"bookingid":109},{"bookingid":237},{"bookingid":133},{"bookingid":186},{"bookingid":180},{"bookingid":151},{"bookingid":176},{"bookingid":18},{"bookingid":243},{"bookingid":21},{"bookingid":202},{"bookingid":287},{"bookingid":94},{"bookingid":286},{"bookingid":173},{"bookingid":296},{"bookingid":92},{"bookingid":150},{"bookingid":216},{"bookingid":200},{"bookingid":187},{"bookingid":192},{"bookingid":77},{"bookingid":168},{"bookingid":107},{"bookingid":271},{"bookingid":47},{"bookingid":100},{"bookingid":55},{"bookingid":1},{"bookingid":65},{"bookingid":142},{"bookingid":3},{"bookingid":10},{"bookingid":144},{"bookingid":102},{"bookingid":103},{"bookingid":33},{"bookingid":294},{"bookingid":49},{"bookingid":155},{"bookingid":50},{"bookingid":302},{"bookingid":17},{"bookingid":30},{"bookingid":239},{"bookingid":190},{"bookingid":31},{"bookingid":44},{"bookingid":74},{"bookingid":295},{"bookingid":4},{"bookingid":104},{"bookingid":157},{"bookingid":23},{"bookingid":184},{"bookingid":251},{"bookingid":269},{"bookingid":288},{"bookingid":245},{"bookingid":281},{"bookingid":233},{"bookingid":276},{"bookingid":8},{"bookingid":275},{"bookingid":40},{"bookingid":73},{"bookingid":218},{"bookingid":130},{"bookingid":265},{"bookingid":242},{"bookingid":99},{"bookingid":120},{"bookingid":250},{"bookingid":143},{"bookingid":79},{"bookingid":165},{"bookingid":95},{"bookingid":13},{"bookingid":41},{"bookingid":207},{"bookingid":149},{"bookingid":38},{"bookingid":19},{"bookingid":225},{"bookingid":85},{"bookingid":88},{"bookingid":101},{"bookingid":274},{"bookingid":148},{"bookingid":48},{"bookingid":259},{"bookingid":167},{"bookingid":254},{"bookingid":160},{"bookingid":20},{"bookingid":255},{"bookingid":34},{"bookingid":136},{"bookingid":70},{"bookingid":111},{"bookingid":297},{"bookingid":206},{"bookingid":5},{"bookingid":215},{"bookingid":161},{"bookingid":220},{"bookingid":260},{"bookingid":293},{"bookingid":26},{"bookingid":227},{"bookingid":67},{"bookingid":223},{"bookingid":282},{"bookingid":185},{"bookingid":12},{"bookingid":267},{"bookingid":127},{"bookingid":214},{"bookingid":181},{"bookingid":249},{"bookingid":60},{"bookingid":123},{"bookingid":93},{"bookingid":154},{"bookingid":178},{"bookingid":90},{"bookingid":257},{"bookingid":14},{"bookingid":118},{"bookingid":231},{"bookingid":195},{"bookingid":230},{"bookingid":240},{"bookingid":236},{"bookingid":35},{"bookingid":24},{"bookingid":145},{"bookingid":247},{"bookingid":301},{"bookingid":234},{"bookingid":171},{"bookingid":116},{"bookingid":262},{"bookingid":194},{"bookingid":134},{"bookingid":59},{"bookingid":22},{"bookingid":284},{"bookingid":82},{"bookingid":228},{"bookingid":39},{"bookingid":138},{"bookingid":188},{"bookingid":270},{"bookingid":248},{"bookingid":125},{"bookingid":162},{"bookingid":179},{"bookingid":210},{"bookingid":212},{"bookingid":277},{"bookingid":84},{"bookingid":209},{"bookingid":28},{"bookingid":68},{"bookingid":285},{"bookingid":290},{"bookingid":25},{"bookingid":53},{"bookingid":135},{"bookingid":156},{"bookingid":219},{"bookingid":203},{"bookingid":7},{"bookingid":263},{"bookingid":52},{"bookingid":303},{"bookingid":129},{"bookingid":36},{"bookingid":222},{"bookingid":278},{"bookingid":196},{"bookingid":63},{"bookingid":42},{"bookingid":108},{"bookingid":87},{"bookingid":174},{"bookingid":119},{"bookingid":81},{"bookingid":37},{"bookingid":78},{"bookingid":199},{"bookingid":57},{"bookingid":71},{"bookingid":11},{"bookingid":126},{"bookingid":9},{"bookingid":272},{"bookingid":110},{"bookingid":137},{"bookingid":96},{"bookingid":54},{"bookingid":16},{"bookingid":163},{"bookingid":170},{"bookingid":261},{"bookingid":193},{"bookingid":204},{"bookingid":300}]
+2025-08-24 21:11:33,657 - INFO - POST https://restful-booker.herokuapp.com/booking
+2025-08-24 21:11:33,657 - DEBUG - Headers: None
+2025-08-24 21:11:33,657 - DEBUG - Payload: {'firstname': 'Jacob', 'lastname': 'Meyer', 'totalprice': 109, 'depositpaid': False, 'bookingdates': {'checkin': '2024-11-09', 'checkout': '2025-07-14'}, 'additionalneeds': 'Dinner'}
+2025-08-24 21:11:34,854 - INFO - Response status: 200
+2025-08-24 21:11:34,854 - DEBUG - Response body: {"bookingid":315,"booking":{"firstname":"Jacob","lastname":"Meyer","totalprice":109,"depositpaid":false,"bookingdates":{"checkin":"2024-11-09","checkout":"2025-07-14"},"additionalneeds":"Dinner"}}
+2025-08-24 21:11:34,859 - INFO - GET https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:34,859 - DEBUG - Headers: None
+2025-08-24 21:11:34,859 - DEBUG - Params: None
+2025-08-24 21:11:36,052 - INFO - Response status: 200
+2025-08-24 21:11:36,052 - DEBUG - Response body: {"firstname":"Jacob","lastname":"Meyer","totalprice":109,"depositpaid":false,"bookingdates":{"checkin":"2024-11-09","checkout":"2025-07-14"},"additionalneeds":"Dinner"}
+2025-08-24 21:11:36,058 - INFO - POST https://restful-booker.herokuapp.com/auth
+2025-08-24 21:11:36,058 - DEBUG - Headers: None
+2025-08-24 21:11:36,058 - DEBUG - Payload: {'username': 'admin', 'password': 'password123'}
+2025-08-24 21:11:37,289 - INFO - Response status: 200
+2025-08-24 21:11:37,289 - DEBUG - Response body: {"token":"9b36631c2a2e948"}
+2025-08-24 21:11:37,295 - INFO - POST https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:37,295 - DEBUG - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'Cookie': 'token=9b36631c2a2e948', 'Authorization': 'Basic 9b36631c2a2e948'}
+2025-08-24 21:11:37,295 - DEBUG - Payload: {'firstname': 'Troy', 'lastname': 'Henry', 'totalprice': 570, 'depositpaid': False, 'bookingdates': {'checkin': '2022-07-24', 'checkout': '2026-01-19'}, 'additionalneeds': 'Breakfast'}
+2025-08-24 21:11:38,521 - INFO - Response status: 200
+2025-08-24 21:11:38,521 - DEBUG - Response body: {"firstname":"Troy","lastname":"Henry","totalprice":570,"depositpaid":false,"bookingdates":{"checkin":"2022-07-24","checkout":"2026-01-19"},"additionalneeds":"Breakfast"}
+2025-08-24 21:11:38,529 - INFO - POST https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:38,529 - DEBUG - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'Cookie': 'token=9b36631c2a2e948', 'Authorization': 'Basic 9b36631c2a2e948'}
+2025-08-24 21:11:38,529 - DEBUG - Payload: {'firstname': 'Kyle', 'lastname': 'Day'}
+2025-08-24 21:11:39,746 - INFO - Response status: 200
+2025-08-24 21:11:39,746 - DEBUG - Response body: {"firstname":"Kyle","lastname":"Day","totalprice":570,"depositpaid":false,"bookingdates":{"checkin":"2022-07-24","checkout":"2026-01-19"},"additionalneeds":"Breakfast"}
+2025-08-24 21:11:39,754 - INFO - DELETE https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:39,755 - DEBUG - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'Cookie': 'token=9b36631c2a2e948', 'Authorization': 'Basic 9b36631c2a2e948'}
+2025-08-24 21:11:39,755 - DEBUG - Params: None
+2025-08-24 21:11:40,918 - INFO - Response status: 201
+2025-08-24 21:11:40,919 - DEBUG - Response body: Created
+2025-08-24 21:11:40,927 - INFO - POST https://restful-booker.herokuapp.com/booking
+2025-08-24 21:11:40,927 - DEBUG - Headers: None
+2025-08-24 21:11:40,928 - DEBUG - Payload: {'totalprice': 71, 'depositpaid': False, 'bookingdates': {'checkin': '2020-10-01', 'checkout': '2025-09-28'}, 'additionalneeds': 'Dinner'}
+2025-08-24 21:11:42,228 - INFO - Response status: 500
+2025-08-24 21:11:42,228 - DEBUG - Response body: Internal Server Error
+2025-08-24 21:11:42,234 - INFO - GET https://restful-booker.herokuapp.com/booking/0
+2025-08-24 21:11:42,234 - DEBUG - Headers: None
+2025-08-24 21:11:42,234 - DEBUG - Params: None
+2025-08-24 21:11:43,423 - INFO - Response status: 404
+2025-08-24 21:11:43,423 - DEBUG - Response body: Not Found
+2025-08-24 21:11:43,431 - INFO - GET https://restful-booker.herokuapp.com/booking/-1
+2025-08-24 21:11:43,431 - DEBUG - Headers: None
+2025-08-24 21:11:43,431 - DEBUG - Params: None
+2025-08-24 21:11:44,677 - INFO - Response status: 404
+2025-08-24 21:11:44,677 - DEBUG - Response body: Not Found
+2025-08-24 21:11:44,682 - INFO - GET https://restful-booker.herokuapp.com/booking/999999999
+2025-08-24 21:11:44,682 - DEBUG - Headers: None
+2025-08-24 21:11:44,682 - DEBUG - Params: None
+2025-08-24 21:11:45,897 - INFO - Response status: 404
+2025-08-24 21:11:45,897 - DEBUG - Response body: Not Found
+2025-08-24 21:11:45,905 - INFO - GET https://restful-booker.herokuapp.com/booking/2147483647
+2025-08-24 21:11:45,906 - DEBUG - Headers: None
+2025-08-24 21:11:45,906 - DEBUG - Params: None
+2025-08-24 21:11:47,105 - INFO - Response status: 404
+2025-08-24 21:11:47,105 - DEBUG - Response body: Not Found
+2025-08-24 21:11:47,109 - INFO - POST https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:47,109 - DEBUG - Headers: None
+2025-08-24 21:11:47,109 - DEBUG - Payload: {'firstname': 'James', 'lastname': 'Parks', 'totalprice': 381, 'depositpaid': False, 'bookingdates': {'checkin': '2024-02-08', 'checkout': '2024-12-15'}, 'additionalneeds': 'Dinner'}
+2025-08-24 21:11:48,371 - INFO - Response status: 403
+2025-08-24 21:11:48,371 - DEBUG - Response body: Forbidden
+2025-08-24 21:11:48,377 - INFO - GET https://restful-booker.herokuapp.com/ping
+2025-08-24 21:11:48,377 - DEBUG - Headers: None
+2025-08-24 21:11:48,377 - DEBUG - Params: None
+2025-08-24 21:11:49,565 - INFO - Response status: 201
+2025-08-24 21:11:49,566 - DEBUG - Response body: Created

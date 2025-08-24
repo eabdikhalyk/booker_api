@@ -1,0 +1,5 @@
+2025-08-24 21:11:34,859 - INFO - GET https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:34,859 - DEBUG - Headers: None
+2025-08-24 21:11:34,859 - DEBUG - Params: None
+2025-08-24 21:11:36,052 - INFO - Response status: 200
+2025-08-24 21:11:36,052 - DEBUG - Response body: {"firstname":"Jacob","lastname":"Meyer","totalprice":109,"depositpaid":false,"bookingdates":{"checkin":"2024-11-09","checkout":"2025-07-14"},"additionalneeds":"Dinner"}

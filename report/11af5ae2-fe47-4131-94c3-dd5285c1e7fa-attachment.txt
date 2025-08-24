@@ -1,0 +1,5 @@
+2025-08-24 21:11:33,657 - INFO - POST https://restful-booker.herokuapp.com/booking
+2025-08-24 21:11:33,657 - DEBUG - Headers: None
+2025-08-24 21:11:33,657 - DEBUG - Payload: {'firstname': 'Jacob', 'lastname': 'Meyer', 'totalprice': 109, 'depositpaid': False, 'bookingdates': {'checkin': '2024-11-09', 'checkout': '2025-07-14'}, 'additionalneeds': 'Dinner'}
+2025-08-24 21:11:34,854 - INFO - Response status: 200
+2025-08-24 21:11:34,854 - DEBUG - Response body: {"bookingid":315,"booking":{"firstname":"Jacob","lastname":"Meyer","totalprice":109,"depositpaid":false,"bookingdates":{"checkin":"2024-11-09","checkout":"2025-07-14"},"additionalneeds":"Dinner"}}

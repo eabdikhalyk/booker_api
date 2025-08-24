@@ -1,0 +1,5 @@
+2025-08-24 21:11:44,682 - INFO - GET https://restful-booker.herokuapp.com/booking/999999999
+2025-08-24 21:11:44,682 - DEBUG - Headers: None
+2025-08-24 21:11:44,682 - DEBUG - Params: None
+2025-08-24 21:11:45,897 - INFO - Response status: 404
+2025-08-24 21:11:45,897 - DEBUG - Response body: Not Found

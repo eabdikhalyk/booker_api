@@ -1,0 +1,5 @@
+[32mINFO    [0m APIClient:base_requests.py:8 POST https://restful-booker.herokuapp.com/booking
+[35mDEBUG   [0m APIClient:base_requests.py:9 Headers: None
+[35mDEBUG   [0m APIClient:base_requests.py:10 Payload: {'totalprice': 71, 'depositpaid': False, 'bookingdates': {'checkin': '2020-10-01', 'checkout': '2025-09-28'}, 'additionalneeds': 'Dinner'}
+[32mINFO    [0m APIClient:base_requests.py:14 Response status: 500
+[35mDEBUG   [0m APIClient:base_requests.py:15 Response body: Internal Server Error

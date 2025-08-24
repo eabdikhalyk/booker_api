@@ -1,0 +1,5 @@
+[32mINFO    [0m APIClient:base_requests.py:55 GET https://restful-booker.herokuapp.com/booking/0
+[35mDEBUG   [0m APIClient:base_requests.py:56 Headers: None
+[35mDEBUG   [0m APIClient:base_requests.py:57 Params: None
+[32mINFO    [0m APIClient:base_requests.py:61 Response status: 404
+[35mDEBUG   [0m APIClient:base_requests.py:62 Response body: Not Found

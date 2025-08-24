@@ -1,0 +1,5 @@
+2025-08-24 21:11:47,109 - INFO - POST https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:47,109 - DEBUG - Headers: None
+2025-08-24 21:11:47,109 - DEBUG - Payload: {'firstname': 'James', 'lastname': 'Parks', 'totalprice': 381, 'depositpaid': False, 'bookingdates': {'checkin': '2024-02-08', 'checkout': '2024-12-15'}, 'additionalneeds': 'Dinner'}
+2025-08-24 21:11:48,371 - INFO - Response status: 403
+2025-08-24 21:11:48,371 - DEBUG - Response body: Forbidden

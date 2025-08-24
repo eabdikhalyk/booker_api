@@ -1,0 +1,5 @@
+2025-08-24 21:11:40,927 - INFO - POST https://restful-booker.herokuapp.com/booking
+2025-08-24 21:11:40,927 - DEBUG - Headers: None
+2025-08-24 21:11:40,928 - DEBUG - Payload: {'totalprice': 71, 'depositpaid': False, 'bookingdates': {'checkin': '2020-10-01', 'checkout': '2025-09-28'}, 'additionalneeds': 'Dinner'}
+2025-08-24 21:11:42,228 - INFO - Response status: 500
+2025-08-24 21:11:42,228 - DEBUG - Response body: Internal Server Error

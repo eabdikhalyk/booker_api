@@ -1,0 +1,5 @@
+2025-08-24 21:11:39,754 - INFO - DELETE https://restful-booker.herokuapp.com/booking/315
+2025-08-24 21:11:39,755 - DEBUG - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'Cookie': 'token=9b36631c2a2e948', 'Authorization': 'Basic 9b36631c2a2e948'}
+2025-08-24 21:11:39,755 - DEBUG - Params: None
+2025-08-24 21:11:40,918 - INFO - Response status: 201
+2025-08-24 21:11:40,919 - DEBUG - Response body: Created

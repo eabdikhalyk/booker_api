@@ -1,0 +1,10 @@
+[32mINFO    [0m APIClient:base_requests.py:8 POST https://restful-booker.herokuapp.com/auth
+[35mDEBUG   [0m APIClient:base_requests.py:9 Headers: None
+[35mDEBUG   [0m APIClient:base_requests.py:10 Payload: {'username': 'admin', 'password': 'password123'}
+[32mINFO    [0m APIClient:base_requests.py:14 Response status: 200
+[35mDEBUG   [0m APIClient:base_requests.py:15 Response body: {"token":"9b36631c2a2e948"}
+[32mINFO    [0m APIClient:base_requests.py:24 POST https://restful-booker.herokuapp.com/booking/315
+[35mDEBUG   [0m APIClient:base_requests.py:25 Headers: {'Content-Type': 'application/json', 'Accept': 'application/json', 'Cookie': 'token=9b36631c2a2e948', 'Authorization': 'Basic 9b36631c2a2e948'}
+[35mDEBUG   [0m APIClient:base_requests.py:26 Payload: {'firstname': 'Troy', 'lastname': 'Henry', 'totalprice': 570, 'depositpaid': False, 'bookingdates': {'checkin': '2022-07-24', 'checkout': '2026-01-19'}, 'additionalneeds': 'Breakfast'}
+[32mINFO    [0m APIClient:base_requests.py:30 Response status: 200
+[35mDEBUG   [0m APIClient:base_requests.py:31 Response body: {"firstname":"Troy","lastname":"Henry","totalprice":570,"depositpaid":false,"bookingdates":{"checkin":"2022-07-24","checkout":"2026-01-19"},"additionalneeds":"Breakfast"}

@@ -1,0 +1,5 @@
+[32mINFO    [0m APIClient:base_requests.py:24 POST https://restful-booker.herokuapp.com/booking/315
+[35mDEBUG   [0m APIClient:base_requests.py:25 Headers: None
+[35mDEBUG   [0m APIClient:base_requests.py:26 Payload: {'firstname': 'James', 'lastname': 'Parks', 'totalprice': 381, 'depositpaid': False, 'bookingdates': {'checkin': '2024-02-08', 'checkout': '2024-12-15'}, 'additionalneeds': 'Dinner'}
+[32mINFO    [0m APIClient:base_requests.py:30 Response status: 403
+[35mDEBUG   [0m APIClient:base_requests.py:31 Response body: Forbidden
